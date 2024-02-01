@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Newsletter</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: #3498db;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #ecf0f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Add responsive styles */
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Your Company Name</h1>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <p>Hello [Name],</p>
+            <p>We hope you're doing well. Here are some updates from Your Company:</p>
+            <ul>
+                <li>Exciting news about our latest product!</li>
+                <li>Upcoming events and promotions.</li>
+                <li>Customer testimonials and success stories.</li>
+            </ul>
+            <p>Stay tuned for more updates!</p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>For more information, visit our website: <a href="https://www.yourcompany.com">www.yourcompany.com</a></p>
+            <p>If you no longer wish to receive our emails, <a href="#">unsubscribe here</a>.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
